@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HaqddarCherity</string>
+    <string name="i_need_help">انا بحاجة الى مساعدة</string>
+    <string name="I_want_to_help">"أريد ان اساعد "</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">البريد الإلكتروني</string>
+    <string name="prompt_password">"كلمة المرور "</string>
+    <string name="action_sign_in">"تسجيل الدخول أو التسجيل "</string>
+    <string name="action_sign_in_short">تسجيل الدخول</string>
+    <string name="welcome">"أهلا وسهلا ! "</string>
+    <string name="invalid_username">اسم مستخدم غير صالح</string>
+    <string name="invalid_password">يجب أن تكون كلمة المرور> 5 أحرف</string>
+    <string name="login_failed">فشل عملية الدخول</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">مسكن</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="sign_in_with_google">الدخول مع جوجل</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="sign_in_with">سجل دخولك بواسطة</string>
+    <string name="or_sign_in_with">أو تسجيل الدخول باستخدام</string>
+    <string name="forgotten_your_login_details">نسيت السجل الخاص بك في التفاصيل؟</string>
+    <string name="enter_password">كلمة المرور</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="enter_your_name">أدخل أسمك</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="c_e">يكمل</string>
+    <string name="don_t_have_an_account">ليس لديك حساب؟</string>
+    <string name="sign_up">اشتراك</string>
+    <string name="username">Username</string>
+    <string name="title_posted_jobs">الاحتياجات المرسلة</string>
+    <string name="title_account">الحساب</string>
+    <string name="due_date">تاريخ الاستحقاق</string>
+    <string name="DueDate">تاريخ الاستحقاق</string>
+    <string name="totalprice">السعر الكلي</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="status">حالة</string>
+    <string name="posted_date">نشر على</string>
+    <string name="reference_id">الرقم المرجعي</string>
+    <string name="amount_to_be_paid">المبلغ المستحق للدفع</string>
+    <string name="text_image_note">ملاحظة: الرقم المرجعي موجود في أعلى الزاوية اليسرى من الفاتورة. لعرض المنظر الكبير للصورة ، يرجى النقر على الصورة للمعاينة</string>
+    <string name="add_a_bill_to_pay">أضف فاتورة للدفع</string>
+    <string name="urdu">الأردية</string>
+    <string name="english">إنجليزي</string>
+    <string name="login_want_account">تسجيل الدخول</string>
+    <string name="title_contact_us">اتصل بنا</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="save">يحفظ</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="arabic">عربى</string>
+    <string name="hindi">الهندية</string>
+    <string name="pending_needs">الاحتياجات المعلقة</string>
+    <string name="full_fill_needs">تلبية الاحتياجات</string>
+    <string name="description">وصف</string>
+    <string name="submit">يُقدِّم</string>
+    <string name="cancel">يلغي</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="contact">اتصال</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="already_have_an_account">هل لديك حساب؟</string>
+    <string name="enter_the_email_address_associated_with_your_account_and_we_ll_send_you_a_link_to_reset_your_password">أدخل عنوان البريد الإلكتروني المسجل في حسابك وسنرسل لك رابطًا لإعادة تعيين كلمة المرور الخاصة بك</string>
+    <string name="phone_sample">+92 332 4547066</string>
+    <string name="verification_code">رمز التحقق</string>
+    <string name="please_enter_6_digit_code_we_sent_you_on_your_registered_mobile">الرجاء إدخال رمز مكون من 6 أرقام أرسلناه لك على هاتفك المحمول المسجل</string>
+    <string name="forget_password_">نسيت كلمة المرور</string>
+    <string name="due_date_">تاريخ الاستحقاق</string>
+    <string name="those_who_give_out_of_their_own_possessions_by_night_and_by_day_in_private_and_in_public_will_have_their_reward_with_their_lord">“أولئك الذين يتبرعون ، من ممتلكاتهم ، ليلا ونهارا ، سرا وعلانية ، سيحصلون على أجرهم مع ربهم.”</string>
+    <string name="quran_2_274">القرآن : 2:274</string>
+
+
+    <string name="facebook_app_id">637953060966407</string>
+        <string name="fb_login_protocol_scheme">fb637953060966407</string>
+    <string name="facebook_client_token">a239712ea4a84400496fd4f0b09c8263</string>
+    <string name="provider_name">اسم المزود</string>
+    <string name="post_an_electricity_bill">ضع فاتورة الكهرباء</string>
+    <string name="done">فعله</string>
+    <string name="attach_a_link">عنوان URL للفاتورة التي تم التحقق منها</string>
+    <string name="verify"><u>يؤكد</u></string>
+    <string name="about">حول</string>
+    <string name="language">لغة</string>
+    <string name="please_be_noted_that_there_is_no_guarantee_that_your_posted_bill_will_be_paid_since_many_people_are_looking_for_help_and_few_people_can_help_in_these_tough_times_therefore_keep_checking_on_your_side_if_somebody_have_helped_you_before_the_due_date_of_your_bill">Please be noted that there is no guarantee that your posted bill will be paid, since many people are looking for help and few people can help in these tough times. Therefore, keep checking on your side if somebody have helped you before the due date of your bill.</string>
+    <string name="ok">OK</string>
+
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/background_splash.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable-v24/start_buttons.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable/buttons_signin.xml" value="0.132" />
+        <entry key="app/src/main/res/drawable/charity_logo_foreground.xml" value="0.132" />
+        <entry key="app/src/main/res/drawable/clicked_button.xml" value="0.132" />
+        <entry key="app/src/main/res/drawable/email.xml" value="0.132" />
+        <entry key="app/src/main/res/drawable/hide_password.xml" value="0.132" />
+        <entry key="app/src/main/res/drawable/rotation.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable/show_password.xml" value="0.132" />
+        <entry key="app/src/main/res/drawable/start_buttons.xml" value="0.132" />
+        <entry key="app/src/main/res/layout-land/activity_login.xml" value="0.2994791666666667" />
+        <entry key="app/src/main/res/layout-land/activity_sign_up.xml" value="0.2994791666666667" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_payment_redirect.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/activity_signin_options.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/forget_password.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/drawable-ldpi/phone_unchecked.xml" value="0.1255" />
+        <entry key="need/src/main/res/drawable-xxxhdpi/cursor_color.xml" value="0.1265" />
+        <entry key="need/src/main/res/drawable-xxxhdpi/verification_box.xml" value="0.1265" />
+        <entry key="need/src/main/res/drawable/account_button.xml" value="0.1265" />
+        <entry key="need/src/main/res/drawable/account_button_check.xml" value="0.1265" />
+        <entry key="need/src/main/res/drawable/add.xml" value="0.132" />
+        <entry key="need/src/main/res/drawable/add_new_background.xml" value="0.1265" />
+        <entry key="need/src/main/res/drawable/buttons_signin.xml" value="0.132" />
+        <entry key="need/src/main/res/drawable/clicked_button.xml" value="0.132" />
+        <entry key="need/src/main/res/drawable/cursor_color.xml" value="0.132" />
+        <entry key="need/src/main/res/drawable/cursor_color_white.xml" value="0.132" />
+        <entry key="need/src/main/res/drawable/email.xml" value="0.132" />
+        <entry key="need/src/main/res/drawable/hide_password.xml" value="0.1265" />
+        <entry key="need/src/main/res/drawable/home_button.xml" value="0.1255" />
+        <entry key="need/src/main/res/drawable/home_unchecked.xml" value="0.1255" />
+        <entry key="need/src/main/res/drawable/phone.xml" value="0.1265" />
+        <entry key="need/src/main/res/drawable/phone_checked.xml" value="0.1255" />
+        <entry key="need/src/main/res/drawable/show_password.xml" value="0.1265" />
+        <entry key="need/src/main/res/drawable/start_buttons.xml" value="0.1265" />
+        <entry key="need/src/main/res/layout-land/activity_about.xml" value="0.2994791666666667" />
+        <entry key="need/src/main/res/layout-land/activity_login.xml" value="0.15052083333333333" />
+        <entry key="need/src/main/res/layout-land/activity_sign_up.xml" value="0.15052083333333333" />
+        <entry key="need/src/main/res/layout-land/forget_password.xml" value="0.2994791666666667" />
+        <entry key="need/src/main/res/layout-land/fragment_account.xml" value="0.15052083333333333" />
+        <entry key="need/src/main/res/layout-land/fragment_forget_password.xml" value="0.15052083333333333" />
+        <entry key="need/src/main/res/layout-v21/add_new_entry.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout-v21/verify_entry.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout-w1240dp/fragment_verification_code.xml" value="0.3533782958984374" />
+        <entry key="need/src/main/res/layout-w1240dp/phone_auth_fragment.xml" value="0.213671875" />
+        <entry key="need/src/main/res/layout/activity_about.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/activity_custom_tab.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/activity_facebook.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/activity_home.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/activity_login.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/activity_logo.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/activity_main.xml" value="0.21457905544147843" />
+        <entry key="need/src/main/res/layout/activity_need.xml" value="0.2" />
+        <entry key="need/src/main/res/layout/activity_sign_up.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/activity_verification.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/add_new_entry.xml" value="0.25" />
+        <entry key="need/src/main/res/layout/custom_dialog.xml" value="0.2453125" />
+        <entry key="need/src/main/res/layout/forget_password.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_account.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_base.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_bottom_sheet.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_card_detail.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_contact_us.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_forget_password.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_fulfilled_needs.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_home.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_pending_needs.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_posted_jobs.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_posted_needs.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_sign_up.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/fragment_verification_code.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/language_layout_bottom_sheet.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/language_list_layout.xml" value="0.2453125" />
+        <entry key="need/src/main/res/layout/notification_layout.xml" value="0.22" />
+        <entry key="need/src/main/res/layout/pending_needs_rv_itemview.xml" value="0.2453125" />
+        <entry key="need/src/main/res/layout/posted_job_list_layout.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/posted_list_layout.xml" value="0.2453125" />
+        <entry key="need/src/main/res/layout/verification_code.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/verify_entry.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/layout/warning_dialog_layout.xml" value="0.24635416666666668" />
+        <entry key="need/src/main/res/menu/bottom_nav_menu.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/drawable-mdpi/hide_password.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable-mdpi/phone.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable-mdpi/show_password.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable-xhdpi/clicked_button.xml" value="0.132" />
+        <entry key="want/src/main/res/drawable-xhdpi/start_buttons.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable-xxxhdpi/phone_checked.xml" value="0.1255" />
+        <entry key="want/src/main/res/drawable-xxxhdpi/phone_unchecked.xml" value="0.1255" />
+        <entry key="want/src/main/res/drawable/account1_button.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable/button_background.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable/buttons_signin.xml" value="0.132" />
+        <entry key="want/src/main/res/drawable/copy_icon.xml" value="0.132" />
+        <entry key="want/src/main/res/drawable/credit_card.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable/cursor_color.xml" value="0.12" />
+        <entry key="want/src/main/res/drawable/email.xml" value="0.132" />
+        <entry key="want/src/main/res/drawable/home_button.xml" value="0.1255" />
+        <entry key="want/src/main/res/drawable/in_progress_button.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable/in_progress_checked.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable/password.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable/pay_button_back.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable/phone.xml" value="0.1255" />
+        <entry key="want/src/main/res/drawable/right.xml" value="0.1265" />
+        <entry key="want/src/main/res/drawable/start_button.xml" value="0.12" />
+        <entry key="want/src/main/res/drawable/verification_box.xml" value="0.12" />
+        <entry key="want/src/main/res/layout/activity_about.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/activity_custom_tab.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/activity_home_want.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/activity_login.xml" value="0.2453125" />
+        <entry key="want/src/main/res/layout/activity_login2.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/activity_logo2.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/activity_pay_bill.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="want/src/main/res/layout/activity_want.xml" value="0.25" />
+        <entry key="want/src/main/res/layout/activity_want_login.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/forget_password.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/fragment_account.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/fragment_account_want.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/fragment_card_detail.xml" value="0.33" />
+        <entry key="want/src/main/res/layout/fragment_contact_su.xml" value="0.2453125" />
+        <entry key="want/src/main/res/layout/fragment_contact_us.xml" value="0.23229166666666667" />
+        <entry key="want/src/main/res/layout/fragment_contact_us_fragment__want.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/fragment_drafts_want.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/fragment_forget_password.xml" value="0.2453125" />
+        <entry key="want/src/main/res/layout/fragment_home.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/fragment_home_want.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/fragment_inprogress.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/fragment_inprogress_want.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/fragment_verification_code.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/layout/needs_to_fil_rv.xml" value="0.22" />
+        <entry key="want/src/main/res/layout/notification_layout.xml" value="0.19166666666666668" />
+        <entry key="want/src/main/res/layout/phone_auth_fragment.xml" value="0.24635416666666668" />
+        <entry key="want/src/main/res/menu/bottom_nav_menu.xml" value="0.1935185185185185" />
+        <entry key="want/src/main/res/menu/bottom_nav_menu_want.xml" value="0.17" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

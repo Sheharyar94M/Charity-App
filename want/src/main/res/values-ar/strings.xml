@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HaqddarCherity</string>
+    <string name="drafts">المسودات</string>
+
+    <string name="i_need_help">انا بحاجة الى مساعدة</string>
+    <string name="I_want_to_help">"أريد ان اساعد "</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">البريد الإلكتروني</string>
+    <string name="prompt_password">"كلمة المرور "</string>
+    <string name="action_sign_in">"تسجيل الدخول أو التسجيل "</string>
+    <string name="action_sign_in_short">تسجيل الدخول</string>
+    <string name="welcome">"أهلا وسهلا ! "</string>
+    <string name="invalid_username">اسم مستخدم غير صالح</string>
+    <string name="invalid_password">يجب أن تكون كلمة المرور> 5 أحرف</string>
+    <string name="login_failed">فشل عملية الدخول</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">مسكن</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="sign_in_with_google">الدخول مع جوجل</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="sign_in_with">سجل دخولك بواسطة</string>
+    <string name="or_sign_in_with">أو تسجيل الدخول باستخدام</string>
+    <string name="forgotten_your_login_details">نسيت السجل الخاص بك في التفاصيل؟</string>
+    <string name="enter_password">كلمة المرور</string>
+    <string name="sign_in"><u>تسجيل الدخول</u></string>
+    <string name="enter_your_name">أدخل أسمك</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="c_e">يكمل</string>
+    <string name="don_t_have_an_account">ليس لديك حساب؟</string>
+    <string name="sign_up">اشتراك</string>
+    <string name="username">Username</string>
+    <string name="title_posted_jobs">الاحتياجات المرسلة</string>
+    <string name="title_account">الحساب</string>
+    <string name="due_date">تاريخ الاستحقاق</string>
+    <string name="DueDate">تاريخ الاستحقاق</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="status">حالة</string>
+    <string name="posted_date">نشر على</string>
+    <string name="reference_id">الرقم المرجعي</string>
+    <string name="amount_to_be_paid">المبلغ المستحق للدفع</string>
+    <string name="text_image_note">ملاحظة: الرقم المرجعي موجود في أعلى الزاوية اليسرى من الفاتورة. لعرض المنظر الكبير للصورة ، يرجى النقر على الصورة للمعاينة</string>
+    <string name="add_a_bill_to_pay">أضف فاتورة للدفع</string>
+    <string name="urdu">الأردية</string>
+    <string name="english">إنجليزي</string>
+    <string name="login_want_account">تسجيل الدخول</string>
+    <string name="title_contact_us">اتصل بنا</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="save">يحفظ</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="arabic">عربى</string>
+    <string name="hindi">الهندية</string>
+    <string name="pay_now_">ادفع الآن</string>
+    <string name="submit">يُقدِّم</string>
+    <string name="cancel">يلغي</string>
+    <string name="switch_to_urdu">الأردية</string>
+    <string name="lang_switch">إنجليزي</string>
+    <string name="totalprice">مبلغ الفاتورة</string>
+
+    <string name="facebook_app_id">637953060966407</string>
+    <string name="fb_login_protocol_scheme">fb637953060966407</string>
+    <string name="facebook_client_token">a239712ea4a84400496fd4f0b09c8263</string>
+    <string name="link_verification">رابط تم التحقق منه</string>
+    <string name="language">لغة</string>
+    <string name="bills_to_be_paid">الفواتير الواجب دفعها</string>
+</resources>

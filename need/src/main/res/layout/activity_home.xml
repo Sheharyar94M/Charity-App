@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/start_button_color"
+    tools:context=".i_need_help.ui.home.HomeNeedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/about"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:targetApi="lollipop" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/switch_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingStart="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/language"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:targetApi="lollipop"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingBottom="10dp"
+            android:text="@string/i_need_help"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            tools:targetApi="lollipop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/add_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/post_an_electricity_bill"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--        <include-->
+        <!--            android:id="@+id/include_layout_v"-->
+        <!--            layout="@layout/add_new_entry"-->
+        <!--            android:layout_above="@+id/postedjoblist" />-->
+
+        <!--        <androidx.recyclerview.widget.RecyclerView-->
+        <!--            android:id="@+id/postedjoblist"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:padding="5dp"-->
+        <!--            tools:listitem="@layout/posted_job_list_layout" />-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/include_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/start_button_color"
+            android:backgroundTintMode="src_over"
+            tools:ignore="UnusedAttribute">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/reference"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/clicked_button"
+                    android:hint="@string/reference_id"
+                    android:padding="15dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/lesco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesco"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:theme="@style/switch_theme" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/gepco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gepco"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:theme="@style/switch_theme" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/hesco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hesco"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:theme="@style/switch_theme" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/Isco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Iesco"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:theme="@style/switch_theme" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/kepco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kepco"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:theme="@style/switch_theme" />
+
+                </RadioGroup>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/verify_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:paddingStart="20dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/verify"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:targetApi="lollipop" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/date_due"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/clicked_button"
+                    android:hint="@string/due_date_"
+                    android:padding="15dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/clicked_button"
+                    android:hint="@string/amount_to_be_paid"
+                    android:padding="15dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/link_ver"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/clicked_button"
+                    android:hint="@string/attach_a_link"
+                    android:padding="15dp"
+                    android:textColorHint="@color/white"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <!--                    <androidx.appcompat.widget.AppCompatButton-->
+                    <!--                        android:id="@+id/cancel_button"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginStart="10dp"-->
+                    <!--                        android:layout_marginTop="10dp"-->
+                    <!--                        android:layout_marginEnd="10dp"-->
+                    <!--                        android:layout_marginBottom="10dp"-->
+                    <!--                        android:background="@drawable/start_buttons"-->
+                    <!--                        android:clickable="true"-->
+                    <!--                        android:shadowRadius="10.0"-->
+                    <!--                        android:text="@string/cancel"-->
+                    <!--                        android:textAllCaps="false"-->
+                    <!--                        android:textColor="@color/start_button_color"-->
+                    <!--                        android:textSize="12sp"-->
+                    <!--                        tools:targetApi="lollipop" />-->
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/submit_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/start_buttons"
+                        android:clickable="true"
+                        android:text="@string/done"
+                        android:textAllCaps="false"
+                        android:textColor="@color/start_button_color"
+                        android:textSize="15sp"
+                        tools:targetApi="lollipop" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttons_layout"
+            android:layout_marginTop="55dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/quranic_verse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:text="@string/those_who_give_out_of_their_own_possessions_by_night_and_by_day_in_private_and_in_public_will_have_their_reward_with_their_lord"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                tools:targetApi="lollipop" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/quranic_verse"
+                android:layout_alignEnd="@+id/quranic_verse"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:text="@string/quran_2_274"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:targetApi="lollipop" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

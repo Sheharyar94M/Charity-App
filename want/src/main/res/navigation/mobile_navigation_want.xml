@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_want"
+    app:startDestination="@+id/navigation_home_want">
+
+    <fragment
+        android:id="@+id/navigation_home_want"
+        android:name="com.example.ultimatebook.i_want.ui.home.HomeWantActivity"
+        android:label="@string/title_home"
+        tools:layout="@layout/activity_home_want" />
+
+    <fragment
+        android:id="@+id/in_progress_want"
+        android:name="com.example.ultimatebook.i_want.ui.drafts.DraftsFragment"
+        android:label="@string/drafts"
+        tools:layout="@layout/fragment_drafts_want" />
+
+    <fragment
+        android:id="@+id/navigation_account_want"
+        android:name="com.example.ultimatebook.i_want.ui.account.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account_want" />
+
+    <fragment
+        android:id="@+id/navigation_contact_us"
+        android:name="com.example.ultimatebook.i_want.ui.contact_us.ContactUsFragment_Want"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact_us_fragment__want"/>
+
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/start_button_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".multi_language.BottomSheetFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/start_button_color"
+        android:padding="10dp">
+
+
+        <ListView
+            android:id="@+id/language_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/language_list_layout" />
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

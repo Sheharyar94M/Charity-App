@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/start_button_color"
+    tools:context=".authentication.SigninOptionsActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="15dp"
+        android:text="@string/about"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="lollipop" />
+
+
+    <RelativeLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/want_help_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/start_buttons"
+            android:padding="10dp"
+            android:text="@string/login_as_benevolent"
+            android:textAllCaps="false"
+            android:textColor="@color/start_button_color"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/signup_want_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/want_help_login"
+            android:layout_alignEnd="@+id/want_help_login"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="15dp"
+            android:text="@string/sign_up_to_receive_notifications"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:targetApi="lollipop" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/need_help_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_want_help"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/start_buttons"
+            android:padding="10dp"
+            android:text="@string/login_as_succour"
+            android:textAllCaps="false"
+            android:textColor="@color/start_button_color"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/signup_need_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/need_help_login"
+            android:layout_alignEnd="@+id/need_help_login"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="15dp"
+            android:text="@string/sign_up_as_succour"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:targetApi="lollipop" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttons_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/quranic_verse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="@string/those_who_give_out_of_their_own_possessions_by_night_and_by_day_in_private_and_in_public_will_have_their_reward_with_their_lord"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:targetApi="lollipop" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quranic_verse"
+            android:layout_alignEnd="@+id/quranic_verse"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="15dp"
+            android:text="@string/quran_2_274"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:targetApi="lollipop" />
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start_buttons"
+        android:padding="10dp"
+        android:text="@string/skip"
+        android:textAllCaps="false"
+        android:textColor="@color/start_button_color"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttons_layout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

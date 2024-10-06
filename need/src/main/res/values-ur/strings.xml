@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حقدار چیریٹی</string>
+    <string name="i_need_help">مجھے مدد کی ضرورت ہے</string>
+    <string name="I_want_to_help">میں مدد کرنا چاہتا ہوں</string>
+    <!-- Strings related to login -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">"ای میل "</string>
+    <string name="prompt_password">"پاس ورڈ "</string>
+    <string name="action_sign_in">"سائن ان کریں یا رجسٹر کریں "</string>
+    <string name="action_sign_in_short">"سائن ان "</string>
+    <string name="welcome">خوش آمدید !</string>
+    <string name="invalid_username">"درست صارف نام نہیں ہے "</string>
+    <string name="invalid_password">پاس ورڈ 5 حروف سے زیادہ ہونا چاہیے</string>
+    <string name="login_failed">"لاگ ان ناکام رہے "</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">مرکزی</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="sign_in_with_google">گوگل کے ساتھ سائن ان کریں</string>
+    <string name="forget_password">پاس ورڈ بھول جانا؟</string>
+    <string name="sign_in_with">کے ساتھ سائن ان</string>
+    <string name="or_sign_in_with">یا اس کے ساتھ سائن ان کریں</string>
+    <string name="forgotten_your_login_details">اپنے لاگ ان کی تفصیلات بھول گئے؟</string>
+    <string name="enter_password">پاس ورڈ</string>
+    <string name="sign_in">"سائن ان "</string>
+    <string name="enter_your_name">اپنا نام درج کریں</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">ای میل</string>
+    <string name="c_e">جاری رہے</string>
+    <string name="don_t_have_an_account">کیا آپ کا اکاؤنٹ نہیں ہے؟</string>
+    <string name="sign_up">سائن اپ</string>
+    <string name="username">صارف نام</string>
+    <string name="title_posted_jobs">ظاہر ضروریات</string>
+    <string name="title_account">کھاتہ</string>
+    <string name="due_date">اخری تاریخ</string>
+    <string name="DueDate">اخری تاریخ</string>
+    <string name="totalprice">کل قیمت</string>
+    <string name="phone">فون نمبر</string>
+    <string name="status">حالت</string>
+    <string name="posted_date">پوسٹ کیا گیا</string>
+    <string name="reference_id">حوالہ شناخت</string>
+    <string name="amount_to_be_paid">ادا کی جانی والی رقم</string>
+    <string name="text_image_note">حوالہ نمبر بل کے اوپری بائیں کونے میں ہے۔ تصویر کا بڑا منظر دیکھنے کے لیے براہ کرم پیش نظارہ کے لیے تصویر پر کلک کریں۔<b>نوٹ:</b></string>
+    <string name="add_a_bill_to_pay">ادائیگی کے لیے ایک بل شامل کریں۔</string>
+    <string name="urdu">"اردو "</string>
+    <string name="english">انگریزی</string>
+    <string name="login_want_account">لاگ ان</string>
+    <string name="title_contact_us">رابطہ کریں</string>
+    <string name="contact_us">رابطہ کریں</string>
+    <string name="save">محفوظ</string>
+    <string name="login">لاگ ان</string>
+    <string name="project_id" translatable="false">حقدار چیریٹی</string>
+    <string name="arabic">Arabic</string>
+    <string name="hindi">Hindi</string>
+    <string name="pending_needs">زیر التواء ضروریات</string>
+    <string name="full_fill_needs">پوری پوری ضروریات</string>
+    <string name="description">تفصیل</string>
+    <string name="submit">جمع کرائیں</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="full_name">پورا نام</string>
+    <string name="contact">رابطہ</string>
+    <string name="confirm_password">پاس ورڈ کی تصدیق کریں</string>
+    <string name="already_have_an_account">پہلے سے ہی اکاؤنٹ ہے؟</string>
+    <string name="enter_the_email_address_associated_with_your_account_and_we_ll_send_you_a_link_to_reset_your_password">اپنے اکاؤنٹ میں رجسٹرڈ ای میل ایڈریس درج کریں اور ہم آپ کو اپنا پاس ورڈ دوبارہ ترتیب دینے کے لیے ایک لنک بھیجیں گے</string>
+    <string name="phone_sample">+92 332 4547066</string>
+    <string name="verification_code">تصدیقی کوڈ</string>
+    <string name="please_enter_6_digit_code_we_sent_you_on_your_registered_mobile">براہ کرم 6 ہندسوں کا کوڈ درج کریں جو ہم نے آپ کو آپ کے رجسٹرڈ موبائل پر بھیجا ہے</string>
+    <string name="forget_password_">پاس ورڈ بھول گیا</string>
+    <string name="due_date_">اخری تاریخ</string>
+    <string name="those_who_give_out_of_their_own_possessions_by_night_and_by_day_in_private_and_in_public_will_have_their_reward_with_their_lord">“جو لوگ اپنے مال سے، رات اور دن، تنہا اور علانیہ دیتے ہیں، ان کا اجر ان کے رب کے پاس ہے۔”</string>
+    <string name="quran_2_274">قرآن : 2:274</string>
+
+
+    <string name="facebook_app_id">637953060966407</string>
+        <string name="fb_login_protocol_scheme">fb637953060966407</string>
+    <string name="facebook_client_token">a239712ea4a84400496fd4f0b09c8263</string>
+    <string name="provider_name">فراہم کنندہ کا نام</string>
+    <string name="post_an_electricity_bill">بجلی کا بل پوسٹ کریں۔</string>
+    <string name="done">ہو گیا</string>
+    <string name="attach_a_link">تصدیق شدہ بل کا URL</string>
+    <string name="verify"><u>تصدیق کریں۔</u></string>
+    <string name="about">بارے میں</string>
+    <string name="language">زبان</string>
+    <string name="please_be_noted_that_there_is_no_guarantee_that_your_posted_bill_will_be_paid_since_many_people_are_looking_for_help_and_few_people_can_help_in_these_tough_times_therefore_keep_checking_on_your_side_if_somebody_have_helped_you_before_the_due_date_of_your_bill">Please be noted that there is no guarantee that your posted bill will be paid, since many people are looking for help and few people can help in these tough times. Therefore, keep checking on your side if somebody have helped you before the due date of your bill.</string>
+    <string name="ok">OK</string>
+
+</resources>

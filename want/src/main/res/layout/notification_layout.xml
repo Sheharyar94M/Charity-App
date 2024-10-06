@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/start_button_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/image_layout_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="15dp"
+            android:src="@mipmap/app_icon"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginStart="25dp"
+        app:layout_constraintStart_toEndOf="@+id/image_layout_notify"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading_title_notification">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/heading_title_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title Heading"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold"
+ />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/description_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description of notifications"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

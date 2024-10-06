@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="i_need_help">I need help</string>
+    <!-- Strings related to login -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="I_want_to_help">I want to help</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="or_sign_in_with">or sign in with</string>
+    <string name="forgotten_your_login_details">Forgotten your login details?</string>
+    <string name="enter_password">Password</string>
+    <string name="sign_in"><u>Sign In</u></string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="c_e">Continue</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="title_activity_want_onscreen" translatable="false">want_onscreen</string>
+    <string name="title_activity_need" translatable="false">NeedActivity</string>
+    <string name="title_posted_jobs">Posted Needs</string>
+    <string name="title_account">Account</string>
+    <string name="due_date">Due Date</string>
+    <string name="DueDate">dueDate</string>
+    <string name="phone">Phone number</string>
+    <string name="status">Status</string>
+    <string name="posted_date">Posted on</string>
+    <string name="reference_id">Reference Id</string>
+    <string name="amount_to_be_paid">Amount to be paid</string>
+    <string name="text_image_note"><b>Note:</b> The reference number is on top left corner of the bill. To view the large view of image please click image to preview</string>
+    <string name="add_a_bill_to_pay">Add a bill to pay</string>
+    <string name="switch_to_urdu">Urdu</string>
+    <string name="lang_switch">English</string>
+    <string name="drafts">Drafts</string>
+    <string name="pay_now_">Pay now</string>
+    <string name="totalprice">Bill amount</string>
+
+
+    <string name="facebook_app_id">637953060966407</string>
+    <string name="fb_login_protocol_scheme">fb637953060966407</string>
+    <string name="facebook_client_token">a239712ea4a84400496fd4f0b09c8263</string>
+    <string name="link_verification">Verifying link</string>
+    <string name="language">Language</string>
+    <string name="bills_to_be_paid">Bills to be paid</string>
+
+</resources>

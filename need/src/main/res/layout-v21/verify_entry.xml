@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/include_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="@color/start_button_color"
+    android:backgroundTintMode="src_over"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bill"
+            android:scaleType="centerCrop"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_image_note"
+                android:textSize="11sp"
+                android:textAllCaps="false"
+                android:textStyle="italic"
+                android:textColor="@color/start_button_color"/>
+        </FrameLayout>
+
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/reference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/clicked_button"
+            android:hint="@string/reference_id"
+            android:padding="15dp"
+            android:singleLine="true"
+            android:textColorHint="@color/start_button_color"
+            android:textStyle="italic"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/date_due"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/clicked_button"
+            android:hint="@string/due_date_"
+            android:padding="15dp"
+            android:singleLine="true"
+            android:textColorHint="@color/start_button_color"
+            android:textStyle="italic"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/clicked_button"
+            android:hint="@string/amount_to_be_paid"
+            android:padding="15dp"
+            android:singleLine="true"
+            android:textColorHint="@color/start_button_color"
+            android:textStyle="italic"
+            android:textSize="12sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/lesco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesco"
+                android:textSize="11sp"
+                android:textColor="@color/start_button_color"
+                android:theme="@style/switch_theme" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/gepco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gepco"
+                android:textColor="@color/start_button_color"
+                android:theme="@style/switch_theme"
+                android:textSize="11sp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/hesco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hesco"
+                android:textColor="@color/start_button_color"
+                android:theme="@style/switch_theme"
+                android:textSize="11sp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/Isco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iesco"
+                android:textColor="@color/start_button_color"
+                android:theme="@style/switch_theme"
+                android:textSize="11sp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/kepco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kepco"
+                android:textColor="@color/start_button_color"
+                android:theme="@style/switch_theme"
+                android:textSize="11sp"/>
+
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/clicked_button"
+            android:hint="@string/description"
+            android:padding="15dp"
+            android:textColorHint="@color/start_button_color"
+            android:textStyle="italic"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/start_buttons"
+                android:clickable="true"
+                android:shadowRadius="10.0"
+                android:text="@string/cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                tools:targetApi="lollipop" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/start_buttons"
+                android:clickable="true"
+                android:shadowRadius="10.0"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                tools:targetApi="lollipop" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

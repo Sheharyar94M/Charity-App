@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HaqddarCherity</string>
+
+    <string name="I_want_to_help">أريد ان اساعد</string>
+    <string name="i_need_help">انا بحاجة الى مساعدة</string>
+    <string name="language">لغة</string>
+    <string name="about">حول</string>
+    <string name="those_who_give_out_of_their_own_possessions_by_night_and_by_day_in_private_and_in_public_will_have_their_reward_with_their_lord">“ أولئك الذين يتبرعون ، من ممتلكاتهم ، ليلا ونهارا ، سرا وعلانية ، سيحصلون على أجرهم مع ربهم.”</string>
+    <string name="quran_2_274">القرآن : 2:274</string>
+    <string name="succour">العون</string>
+    <string name="benevolent">خير</string>
+    <string name="sign_up_to_receive_notifications">قم بالتسجيل كخير</string>
+    <string name="login_as_benevolent">تسجيل الدخول خير</string>
+    <string name="login_as_succour">تسجيل الدخول كمساعدة</string>
+    <string name="sign_up_as_succour">قم بالتسجيل في برنامج Succor</string>
+    <string name="skip">يتخطى</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HaqddarCherity</string>
+
+    <string name="I_want_to_help">मैं मदद करना चाहता हूँ</string>
+    <string name="i_need_help">मुझे मदद की ज़रूरत है</string>
+    <string name="language">भाषा</string>
+    <string name="about">के बारे में</string>
+    <string name="those_who_give_out_of_their_own_possessions_by_night_and_by_day_in_private_and_in_public_will_have_their_reward_with_their_lord">“ जो लोग अपनी संपत्ति में से रात और दिन में अकेले और सार्वजनिक रूप से दान करते हैं, उनका प्रतिफल उनके रब के पास होगा।”</string>
+    <string name="quran_2_274">कुरान : 2:274</string>
+    <string name="succour">परेशानी में सहायता</string>
+    <string name="benevolent">परोपकारी</string>
+    <string name="sign_up_to_receive_notifications">परोपकारी के रूप में साइन अप करें</string>
+    <string name="login_as_benevolent">परोपकारी के रूप में लॉगिन करें</string>
+    <string name="login_as_succour">सहायता के रूप में लॉगिन करें</string>
+    <string name="sign_up_as_succour">सहायता के रूप में साइन अप करें</string>
+    <string name="skip">छोड़ें</string>
+
+
+</resources>

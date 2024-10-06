@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="post_an_electricity_bill">Post an Electricity Bill</string>
+    <string name="done">done</string>
+    <string name="attach_a_link">URL of verified bill</string>
+    <string name="those_who_give_out_of_their_own_possessions_by_night_and_by_day_in_private_and_in_public_will_have_their_reward_with_their_lord">“ Those who give, out of their own possessions, by night and by day, in private and in public will have their reward with their Lord.”</string>
+    <string name="quran_2_274">Quran : 2:274</string>
+    <string name="verify"><u>Verify</u></string>
+    <string name="about">About</string>
+    <string name="language">Language</string>
+    <string name="please_be_noted_that_there_is_no_guarantee_that_your_posted_bill_will_be_paid_since_many_people_are_looking_for_help_and_few_people_can_help_in_these_tough_times_therefore_keep_checking_on_your_side_if_somebody_have_helped_you_before_the_due_date_of_your_bill">Please be noted that there is no guarantee that your posted bill will be paid, since many people are looking for help and few people can help in these tough times. Therefore, keep checking on your side if somebody have helped you before the due date of your bill.</string>
+    <string name="ok">OK</string>
+</resources>

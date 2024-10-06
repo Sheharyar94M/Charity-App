@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="start_button_color">#1C4931</color>
+    <color name="hint_text_color">#8bc43c</color>
+</resources>

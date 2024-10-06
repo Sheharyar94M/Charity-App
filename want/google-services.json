@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "642009831938",
+    "firebase_url": "https://haqddarcherity-default-rtdb.firebaseio.com",
+    "project_id": "haqddarcherity",
+    "storage_bucket": "haqddarcherity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642009831938:android:ff0565401d038b5f0ee51b",
+        "android_client_info": {
+          "package_name": "com.example.ultimatebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642009831938-hqjnauimijvt5hn039557e4kpovctbhq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ultimatebook",
+            "certificate_hash": "2f703c042667b7113986c85ea164f0268988c09c"
+          }
+        },
+        {
+          "client_id": "642009831938-lo3n1t0m20cuaqbrm8qhj9n5qiu6fu89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcWtqs6IJuFn8I1mxrX8wCNpDBwqSb-Ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642009831938-lo3n1t0m20cuaqbrm8qhj9n5qiu6fu89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

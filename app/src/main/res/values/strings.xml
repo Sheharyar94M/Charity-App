@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">HaqddarCherity</string>
+
+    <string name="i_need_help">I need help</string>
+
+
+    <!-- Strings related to login -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="I_want_to_help">I want to help</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="or_sign_in_with">or sign in with</string>
+    <string name="forgotten_your_login_details">Forgotten your login details?</string>
+    <string name="enter_password">Password</string>
+    <string name="sign_in"><u>Sign In</u></string>
+    <string name="enter_your_name">Enter Your Name</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="c_e">Continue</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="title_account">Account</string>
+    <string name="due_date">Due Date =</string>
+    <string name="DueDate">dueDate</string>
+    <string name="language">Language</string>
+    <string name="about">About</string>
+    <string name="those_who_give_out_of_their_own_possessions_by_night_and_by_day_in_private_and_in_public_will_have_their_reward_with_their_lord">“ Those who give, out of their own possessions, by night and by day, in private and in public will have their reward with their Lord.”</string>
+    <string name="quran_2_274">Quran : 2:274</string>
+    <string name="succour">Succour</string>
+    <string name="benevolent">Benevolent</string>
+    <string name="sign_up_to_receive_notifications">Sign up as benevolent</string>
+    <string name="login_as_benevolent">Login as benevolent</string>
+    <string name="login_as_succour">Login as Succour</string>
+    <string name="sign_up_as_succour">Sign up as Succour</string>
+    <string name="skip">Skip</string>
+
+</resources>

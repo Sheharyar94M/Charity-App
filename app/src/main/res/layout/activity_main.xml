@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/start_button_color"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="ScrollViewSize">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/logo"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/charity_logo"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:alpha="0.1"
+            android:scaleY="1"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="15dp"
+            android:text="@string/about"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:targetApi="lollipop" />
+
+        <RelativeLayout
+            android:id="@+id/buttons_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/need_help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/start_buttons"
+                android:padding="10dp"
+                android:text="@string/succour"
+                android:textAllCaps="false"
+                android:textColor="@color/start_button_color"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/want_help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/need_help"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/start_buttons"
+                android:padding="10dp"
+                android:text="@string/benevolent"
+                android:textAllCaps="false"
+                android:textColor="@color/start_button_color"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/switch_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/want_help"
+                android:layout_alignEnd="@+id/want_help"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingStart="15dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="15dp"
+                android:text="@string/language"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textAlignment="textEnd"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:targetApi="lollipop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_below="@+id/buttons_layout">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/quranic_verse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:text="@string/those_who_give_out_of_their_own_possessions_by_night_and_by_day_in_private_and_in_public_will_have_their_reward_with_their_lord"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:targetApi="lollipop" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/quranic_verse"
+                android:layout_alignEnd="@+id/quranic_verse"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp"
+                android:text="@string/quran_2_274"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:targetApi="lollipop" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

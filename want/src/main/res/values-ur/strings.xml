@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حقدار چیریٹی</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">سرورق</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="forget_password">پاس ورڈ بھول جانا؟</string>
+    <string name="sign_in_with">کے ساتھ سائن ان</string>
+    <string name="or_sign_in_with">یا اس کے ساتھ سائن ان کریں</string>
+    <string name="forgotten_your_login_details">Forgotten your login details?</string>
+    <string name="enter_password">پاس ورڈ</string>
+    <string name="sign_in"><u>Sign In</u></string>
+    <string name="enter_your_name">اپنا نام درج کریں</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">ای میل</string>
+    <string name="c_e">جاری رہے</string>
+    <string name="don_t_have_an_account">کیا آپ کا اکاؤنٹ نہیں ہے؟</string>
+    <string name="sign_up">سائن اپ</string>
+    <string name="username">صارف نام</string>
+    <string name="title_posted_jobs">ظاہر ضروریات</string>
+    <string name="title_account">کھاتہ</string>
+    <string name="due_date">اخری تاریخ</string>
+    <string name="DueDate">اخری تاریخ</string>
+    <string name="phone">فون نمبر</string>
+    <string name="status">حالت</string>
+    <string name="posted_date">پوسٹ کیا گیا</string>
+    <string name="reference_id">حوالہ شناخت</string>
+    <string name="amount_to_be_paid">ادا کی جانی والی رقم</string>
+    <string name="text_image_note">حوالہ نمبر بل کے اوپری بائیں کونے میں ہے۔ تصویر کا بڑا منظر دیکھنے کے لیے براہ کرم پیش نظارہ کے لیے تصویر پر کلک کریں۔<b>نوٹ:</b></string>
+    <string name="add_a_bill_to_pay">ادائیگی کے لیے ایک بل شامل کریں۔</string>
+    <string name="drafts">ڈرافٹ</string>
+    <string name="i_need_help">مجھے مدد کی ضرورت ہے</string>
+    <string name="I_want_to_help">میں مدد کرنا چاہتا ہوں</string>
+    <!-- Strings related to login -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="urdu">"اردو "</string>
+    <string name="english">انگریزی</string>
+    <string name="login_want_account">لاگ ان</string>
+    <string name="title_contact_us">رابطہ کریں</string>
+    <string name="contact_us">رابطہ کریں</string>
+    <string name="save">محفوظ</string>
+    <string name="login">لاگ ان</string>
+    <string name="arabic">Arabic</string>
+    <string name="hindi">Hindi</string>
+    <string name="pay_now_">اب ادا کریں</string>
+    <string name="submit">جمع کرائیں</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="switch_to_urdu">اردو</string>
+    <string name="lang_switch">انگریزی</string>
+    <string name="totalprice">بل رقم</string>
+
+
+    <string name="facebook_app_id">637953060966407</string>
+    <string name="fb_login_protocol_scheme">fb637953060966407</string>
+    <string name="facebook_client_token">a239712ea4a84400496fd4f0b09c8263</string>
+    <string name="link_verification">تصدیق شدہ لنک</string>
+    <string name="language">زبان</string>
+    <string name="bills_to_be_paid">بل ادا کیے جائیں۔</string>
+
+</resources>

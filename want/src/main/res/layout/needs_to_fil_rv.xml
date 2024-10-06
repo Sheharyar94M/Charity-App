@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/lay_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UselessParent">
+
+                    <LinearLayout
+                        android:id="@+id/lay_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/reference_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="@string/reference_id"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/reference_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Reference"
+                            android:textColor="@color/start_button_color"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lay_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lay_1"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/due_date"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="@string/due_date"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/due_date_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="@string/DueDate"
+                            android:textColor="@color/start_button_color"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lay_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lay_2"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/TotalPrice"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:padding="10dp"
+                            android:text="@string/totalprice"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/TotalPrice_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="Total Price"
+                            android:textColor="@color/start_button_color"
+                            android:textSize="15sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lay_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lay_3"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/link"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:padding="10dp"
+                            android:text="@string/link_verification"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/link_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="value"
+                            android:textColor="@color/start_button_color"
+                            android:textSize="15sp"
+                            android:drawableEnd="@drawable/copy_icon"
+                            android:layout_weight="0.95"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/payment_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/main"
+                android:background="@drawable/pay_button_back"
+                android:padding="10dp"
+                android:text="@string/pay_now_"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</androidx.cardview.widget.CardView>
